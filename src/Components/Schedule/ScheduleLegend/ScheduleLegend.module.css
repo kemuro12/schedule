@@ -1,0 +1,47 @@
+.legend{
+    display:flex;
+    justify-content: space-around;
+    width:100%;
+    max-width:800px;
+    font-size:16px;
+}
+
+.block{
+    display:flex;
+}
+
+.block div{
+    width:13px;
+    height:13px;
+    margin:3px 8px;
+    position: relative;
+    z-index: -250;
+}
+
+.block div::after{
+    content: "";
+    position: absolute;
+    width:18.5px;
+    height:9px;
+    left:-6px;
+    z-index: -300;
+    top:5.2px;
+    transform:rotate(45deg);
+    background:white;
+}
+
+.lections{
+    background:red;
+}
+
+.practics{
+    background: rgb(41,109,144);
+}
+
+.labs{
+    background: rgb(46,196,228);
+}
+
+.seminars{
+    background: rgb(255,162,0);
+}

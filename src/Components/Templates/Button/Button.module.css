@@ -1,0 +1,32 @@
+button{
+    font-size:16px;
+    background-color: rgb(26,134,206);
+    border:2px solid rgb(26,134,206);
+    padding:6px 16px;
+    color:white;
+    border-radius: 5px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:white;
+    color:rgb(26,134,206);
+}
+
+button:active{
+    margin-top:0.5px;
+}
+
+button:focus{
+    outline: none;
+}
+
+.error{
+    background:rgb(220,53,69);
+    border:2px solid rgb(220,53,69);
+}
+
+.error:hover{
+    background:white;
+    color:rgb(220,53,69)
+}

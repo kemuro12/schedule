@@ -1,0 +1,64 @@
+.block{
+    border:1px solid rgb(99,178,205);
+    height: 100px;
+    width: 16%;
+    font-size:13.5px;
+    position: relative;
+}
+
+.block:hover{
+    background:rgb(144,223,250,0.3)
+}
+
+.type{
+    width:13px;
+    height:13px;
+    position: absolute;
+    right:0;
+    z-index: -250;
+}
+
+.type::after{
+    content: "";
+    position: absolute;
+    width:18.5px;
+    height:9px;
+    left:-6px;
+    z-index: -300;
+    top:5.2px;
+    transform:rotate(45deg);
+    background:white;
+}
+
+.lection { background: red }
+.practic { background: rgb(41,109,144) }
+.lab { background: rgb(46,196,228) }
+.seminar { background: rgb(255,162,0) }
+
+.lesson{
+    float:left;
+    padding:5px;
+}
+
+.teacher{
+    position: absolute;
+    bottom:15px;
+    left:-5px;
+    text-align: end;
+    font-size:11px;
+    width:100%;
+}
+
+.room{
+    position: absolute;
+    bottom:0;
+    left:-5px;
+    text-align: end;
+    width:100%;
+    font-size:11px
+}
+
+
+.admin{
+    cursor: pointer;
+}

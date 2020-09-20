@@ -1,0 +1,13 @@
+.row{
+    display:flex;
+}
+.week{
+    width:30px;
+    background:rgb(99,178,205);
+    color:white;
+    font-size:14px;
+    text-align: center;
+}
+.week div{
+    margin:35px auto;
+}
